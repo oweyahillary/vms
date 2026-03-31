@@ -1,5 +1,8 @@
 {
+  "name": "vms-backend",
+  "version": "1.0.0",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "dependencies": {
@@ -13,5 +16,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
